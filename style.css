@@ -1,0 +1,56 @@
+
+#myid {
+    background: #d22929;
+    float: left;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+#myid ul{ list-style: none;}
+#myid ul{
+    display: flex;
+    text-align: right;
+
+    grid-template-columns:3fr 1fr 1fr;
+
+    font-size: 10px;
+    font-family: "Roboto";
+}
+#myid ul li{
+    margin-right:20px
+}
+#myid a{
+    color:white;
+    font-size:20px;
+    text-decoration: none;
+}
+
+.black-3c85d{
+    background-color:#2f3a55 !important;
+}
+.white-1e1d7{
+    background-color:#d7e2ea !important;
+}
+
+#chessboard{
+    margin: auto;
+}
+/*
+#chessboard > div {
+    display: flex;
+    min-height: 32px;
+}
+
+#chessboard > div > div {
+    flex:0 0 32px;
+    background:brown;
+}
+
+#chessboard > div:nth-child(even) > div:nth-child(even){
+    background:bisque;
+}
+
+#chessboard > div:nth-child(odd) > div:nth-child(odd){
+    background:bisque;
+}*/

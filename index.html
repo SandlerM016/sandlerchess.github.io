@@ -1,0 +1,39 @@
+<!doctype html>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/oakmac-chessboard@1.0.0/src/chessboard.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/chess.js/0.10.2/chess.js"></script>
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/oakmac-chessboard@1.0.0/src/chessboard.css">
+ 
+<html>
+  
+  <body>
+   <div id='chessboarddiv' class="h-100 col-md-4">
+            <br>
+            <!-- center the ChessBoard Frame -->
+            <div id='chessboardframe' style='margin-left: 20px'>
+                <div id='chessboard' style="width: 512px"></div>
+            </div>
+        </div>
+    <form>
+    <div class="form-group">
+                    <label for='move' class="col-lg-2 control-label">Move:</label> <input
+                        type='text' id='move' size='5' name='move'></input>
+                    <button id="updateMove" type="submit" value="updateMove"
+                        name="updateMove">Move</button>
+                </div>
+    </form> 
+    <script>
+      $(window).ready(function(){
+             //addServerSideEventHandler()
+             // handle the url query Parameters
+             handleQuery();
+      });
+        </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/oakmac-chessboard@1.0.0/src/chessboard.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/chess.js/0.10.2/chess.js"></script>
+  </body>
+</html>
